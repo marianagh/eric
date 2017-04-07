@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Veronica\Downloads\SEAM\SEAM\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3e9c063c2e3bfca0593823b6907949a119ae2c07">
+        <dex dex="C:\Users\Veronica\Downloads\SEAM\SEAM\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run-bootstrap_9d687b0f487e40f74eaa11fb782c65db10ce6098\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Veronica\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-v4\19.1.0\support-v4-19.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="85f201b380937e61a9dce6ca90ccf6872abbfb67">
+        <dex dex="C:\Users\Veronica\Downloads\SEAM\SEAM\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-v4-19.1.0_60df5931fafa44c68b02bd48346a6a1cd0ab4921\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Veronica\Downloads\SEAM\SEAM\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.1.0\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="3499ceba05ca1f6037c6a2fad73df8f636224a28">
+        <dex dex="C:\Users\Veronica\Downloads\SEAM\SEAM\app\build\intermediates\transforms\dex\debug\folders\1000\10\com.android.support-appcompat-v7-19.1.0_b26d260f946f0bed666e3d3a7090ab6015bf25c0\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Veronica\Downloads\SEAM\SEAM\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="23.0.2"
+        sha1="c7d005984669a6a8d6b31d1348452c506ffa382c">
+        <dex dex="C:\Users\Veronica\Downloads\SEAM\SEAM\app\build\intermediates\transforms\dex\debug\folders\1000\10\instant-run_ad1266b13f901958d0e9434dc29c27dd9d4b2394\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,894 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="mx.itson.seam.rebaActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/reba_paso_01"
+        android:visibility="visible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_reba_01"
+            android:id="@+id/titulo_reba_01"
+            android:layout_gravity="center_horizontal|top"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/ins_reba_01"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="25dp"
+            android:text="@string/instruccion_reba_01"
+            android:textSize="16dp"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_01_01"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/boton_reba_01_01"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_01_02"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/boton_reba_01_02"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_01_03"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="95dp"
+            android:src="@drawable/boton_reba_01_03"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_01_04"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginTop="95dp"
+            android:src="@drawable/boton_reba_01_04"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_01_01"
+            android:id="@+id/ayuda_reba_01_01"
+            android:layout_gravity="left|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_01_02"
+            android:id="@+id/ayuda_reba_01_02"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_01_03"
+            android:id="@+id/ayuda_reba_01_03"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_01_04"
+            android:id="@+id/ayuda_reba_01_04"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="center" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/reba_paso_02"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_reba_02"
+            android:id="@+id/titulo_reba_02"
+            android:layout_gravity="center_horizontal|top"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/ins_reba_02"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="55dp"
+            android:text="@string/instruccion_reba_02"
+            android:textSize="16dp"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_02_01"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/boton_reba_02_01"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_02_02"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/boton_reba_02_02"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_02_03"
+            android:layout_gravity="center"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/boton_reba_02_03"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_02_01"
+            android:id="@+id/ayuda_reba_02_01"
+            android:layout_gravity="left|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_02_02"
+            android:id="@+id/ayuda_reba_02_02"
+            android:layout_gravity="right|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_02_03"
+            android:id="@+id/ayuda_reba_02_03"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/reba_paso_03"
+        android:visibility="invisible" >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_reba_03"
+            android:id="@+id/titulo_reba_03"
+            android:layout_gravity="center_horizontal|top"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/ins_reba_03"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="30dp"
+            android:text="@string/instruccion_reba_03"
+            android:textSize="16dp"
+            android:textAlignment="center" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_03_01"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/boton_reba_03_01"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="50dp" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_03_02"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/boton_reba_03_02"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="50dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_03_01"
+            android:id="@+id/ayuda_reba_03_01"
+            android:layout_gravity="left|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="55dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_03_02"
+            android:id="@+id/ayuda_reba_03_02"
+            android:layout_gravity="right|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="55dp" />
+
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/reba_paso_04"
+        android:visibility="invisible" >
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_04_01"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/boton_reba_04_01"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_04_02"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/boton_reba_04_02"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_04_03"
+            android:layout_gravity="center"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/boton_reba_04_03"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_reba_04"
+            android:id="@+id/titulo_reba_04"
+            android:layout_gravity="center_horizontal|top"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/ins_reba_04"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="55dp"
+            android:text="@string/instruccion_reba_04"
+            android:textSize="16dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_04_01"
+            android:id="@+id/ayuda_reba_04_01"
+            android:layout_gravity="left|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_04_02"
+            android:id="@+id/ayuda_reba_04_02"
+            android:layout_gravity="right|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_04_03"
+            android:id="@+id/ayuda_reba_04_03"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/reba_paso_05"
+        android:visibility="invisible" >
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_05_01"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/boton_reba_05_01"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="50dp" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_05_02"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/boton_reba_05_02"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="50dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_reba_05"
+            android:id="@+id/titulo_reba_05"
+            android:layout_gravity="center_horizontal|top"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/ins_reba_05"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="30dp"
+            android:text="@string/instruccion_reba_05"
+            android:textSize="16dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_05_01"
+            android:id="@+id/ayuda_reba_05_01"
+            android:layout_gravity="left|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="60dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_05_02"
+            android:id="@+id/ayuda_reba_05_02"
+            android:layout_gravity="right|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="60dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/reba_paso_06"
+        android:visibility="invisible" >
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_06_01"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/boton_reba_06_01"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_06_02"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="60dp"
+            android:src="@drawable/boton_reba_06_02"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_06_03"
+            android:layout_gravity="center"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/boton_reba_06_03"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_reba_06"
+            android:id="@+id/titulo_reba_06"
+            android:layout_gravity="center_horizontal|top"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/ins_reba_06"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="25dp"
+            android:text="@string/instruccion_reba_06"
+            android:textSize="16dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_06_01"
+            android:id="@+id/ayuda_reba_06_01"
+            android:layout_gravity="left|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="160dp"
+            android:layout_height="55dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_06_02"
+            android:id="@+id/ayuda_reba_06_02"
+            android:layout_gravity="right|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginBottom="15dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_06_03"
+            android:id="@+id/ayuda_reba_06_03"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="25dp"
+            android:textAlignment="center" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/reba_paso_07"
+        android:visibility="invisible" >
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_07_01"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/boton_reba_07_01"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_07_02"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/boton_reba_07_02"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_07_03"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/boton_reba_07_03"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_07_04"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/boton_reba_07_04"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_reba_07"
+            android:id="@+id/titulo_reba_07"
+            android:layout_gravity="center_horizontal|top"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/ins_reba_07"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="25dp"
+            android:text="@string/instruccion_reba_07"
+            android:textSize="16dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="55dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_07_01"
+            android:id="@+id/ayuda_reba_07_01"
+            android:layout_gravity="left|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="55dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_07_02"
+            android:id="@+id/ayuda_reba_07_02"
+            android:layout_gravity="right|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_07_03"
+            android:id="@+id/ayuda_reba_07_03"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_07_04"
+            android:id="@+id/ayuda_reba_07_04"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/reba_paso_08"
+        android:visibility="invisible" >
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_08_01"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/boton_reba_08_01"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_08_02"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="80dp"
+            android:src="@drawable/boton_reba_08_02"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_08_03"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="95dp"
+            android:src="@drawable/boton_reba_08_03"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_08_04"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginTop="95dp"
+            android:src="@drawable/boton_reba_08_04"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_reba_08"
+            android:id="@+id/titulo_reba_08"
+            android:layout_gravity="center_horizontal|top"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/ins_reba_08"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="25dp"
+            android:text="@string/instruccion_reba_08"
+            android:textSize="16dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_08_01"
+            android:id="@+id/ayuda_reba_08_01"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_08_02"
+            android:id="@+id/ayuda_reba_08_02"
+            android:layout_gravity="right|center_vertical"
+            android:layout_marginBottom="5dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_08_03"
+            android:id="@+id/ayuda_reba_08_03"
+            android:layout_gravity="left|bottom"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_08_04"
+            android:id="@+id/ayuda_reba_08_04"
+            android:layout_gravity="right|bottom"
+            android:layout_marginBottom="30dp"
+            android:textAlignment="center" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/reba_paso_09"
+        android:visibility="invisible" >
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_09_01"
+            android:layout_gravity="left|top"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/boton_reba_09_01"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_09_02"
+            android:layout_gravity="right|top"
+            android:layout_marginTop="100dp"
+            android:src="@drawable/boton_reba_09_02"
+            android:background="@android:color/transparent" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_09_03"
+            android:layout_gravity="center"
+            android:layout_marginTop="115dp"
+            android:src="@drawable/boton_reba_09_03"
+            android:background="@android:color/transparent" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_reba_09"
+            android:id="@+id/titulo_reba_09"
+            android:layout_gravity="center_horizontal|top"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/ins_reba_09"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="25dp"
+            android:text="@string/instruccion_reba_09"
+            android:textSize="16dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_09_01"
+            android:id="@+id/ayuda_reba_09_01"
+            android:layout_gravity="left|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_09_02"
+            android:id="@+id/ayuda_reba_09_02"
+            android:layout_gravity="right|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="60dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_09_03"
+            android:id="@+id/ayuda_reba_09_03"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="10dp"
+            android:textAlignment="center" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/reba_paso_10"
+        android:visibility="invisible" >
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_10_01"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/boton_reba_10_01"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="50dp" />
+
+        <ImageButton
+            android:layout_width="160dp"
+            android:layout_height="160dp"
+            android:id="@+id/boton_reba_10_02"
+            android:layout_gravity="right|center_vertical"
+            android:src="@drawable/boton_reba_10_02"
+            android:background="@android:color/transparent"
+            android:layout_marginBottom="50dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo_reba_10"
+            android:id="@+id/titulo_reba_10"
+            android:layout_gravity="center_horizontal|top"
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/ins_reba_10"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="30dp"
+            android:text="@string/instruccion_reba_10"
+            android:textSize="16dp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_10_01"
+            android:id="@+id/ayuda_reba_10_01"
+            android:layout_gravity="left|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="55dp" />
+
+        <TextView
+            android:layout_width="165dp"
+            android:layout_height="45dp"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="@string/ayuda_reba_10_02"
+            android:id="@+id/ayuda_10_02"
+            android:layout_gravity="right|center_vertical"
+            android:textAlignment="center"
+            android:layout_marginTop="55dp" />
+    </FrameLayout>
+
+</RelativeLayout>
+
